@@ -7,6 +7,7 @@ obj-y += tty/
 obj-y += generic_serial/
 obj-$(CONFIG_ET131X)		+= et131x/
 obj-$(CONFIG_SLICOSS)		+= slicoss/
+obj-$(CONFIG_OOMKILL)   += oomkill/
 obj-$(CONFIG_VIDEO_GO7007)	+= go7007/
 obj-$(CONFIG_VIDEO_CX25821)	+= cx25821/
 obj-$(CONFIG_VIDEO_TM6000)	+= tm6000/
